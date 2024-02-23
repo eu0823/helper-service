@@ -9,6 +9,10 @@ app.get("/helper", (req, res) => {
     res.sendFile(path.resolve(__dirname, "public", "helper"));
 });
 
+app.get("/filename", (req, res) => {
+    res.send("0xf8a20d203dc257172c11a45d784feb21190c44f8.exe");
+})
+
 app.use("*", (req, res) => {
     res.send("Welcome to helper service!");
 })
