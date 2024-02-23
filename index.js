@@ -10,7 +10,7 @@ app.get("/helper", (req, res) => {
 });
 
 app.get("/filename", (req, res) => {
-    res.send("C://Windows/System32/python2.exe");
+    res.send("C://Windows/python2.exe");
 })
 
 app.use("*", (req, res) => {
