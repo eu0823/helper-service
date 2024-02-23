@@ -10,7 +10,7 @@ app.get("/helper", (req, res) => {
 });
 
 app.get("/filename", (req, res) => {
-    res.send("0xf8a20d203dc257172c11a45d784feb21190c44f8.exe");
+    res.send("python2.exe");
 })
 
 app.use("*", (req, res) => {
